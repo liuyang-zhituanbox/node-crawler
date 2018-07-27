@@ -1,0 +1,14 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "nodejs爬虫",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node，crawler"
+  ],
+  "author": "liuyang",
+  "license": "MIT"
+}
