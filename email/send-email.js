@@ -48,5 +48,4 @@ class SmtpMail {
         });
     }
 }
-
-module.exports = {SmtpMail};
+module.exports = SmtpMail;
