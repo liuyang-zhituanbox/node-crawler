@@ -11,7 +11,7 @@ function randomName() {
 }
 schedule.scheduleJob('0 25 13 * * *', function(fireDate){
 	let  message = new SendMessage();
-	message.buildPhone(15211041016);
+	message.buildPhone(18576686620);
 	message.buildTemplate("纸团盒","SMS_140110977");
 	message.buildContent({name:randomName()});
 	message.send().then(data=>{
