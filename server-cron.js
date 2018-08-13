@@ -31,7 +31,8 @@ async function task(fireDate) {
 		email.send();
 	});
 };
-schedule.scheduleJob('0 25 13 * * *',task);
+//每天的13：25分 因为时差，需要减去8小时
+schedule.scheduleJob('0 25 5 * * *',task);
 let email = new SendEmail();
 email.buildTo("liuyang@zhituanbox.com");
 email.buildContent("cron-server-started", "定时服务启动成功");
